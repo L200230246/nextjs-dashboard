@@ -52,3 +52,11 @@ export type FormattedCustomersTable = {
   total_pending: number;
   total_paid: number;
 };
+
+// Tambahkan ini di /app/lib/definitions.ts
+export type User = {
+  id: string;
+  name: string;
+  email: string;
+  password: string;
+};
